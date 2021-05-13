@@ -1,4 +1,4 @@
-// 22.6.5 Promise.reject
+// 22.6.6 Promise.reject
 const rejectedPromise = Promise.reject(new Error("エラー"));
 
 //----------------------------------------
