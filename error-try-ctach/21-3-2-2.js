@@ -5,7 +5,7 @@ function fn() {
     // 正しくない構文をパースさせ、SyntaxErrorを実行時に発生させる
     eval("foo! bar!");
   } catch (error) {
-    console.log(error instanceof ReferenceError); // => true
+    console.log(error instanceof SyntaxError); // => true
     console.log(error.name); // => "SyntaxError"
     console.log(error.message); // エラーメッセージ（Unexpected token!）が表示される
   }

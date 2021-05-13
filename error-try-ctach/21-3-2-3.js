@@ -5,8 +5,8 @@ function fn() {
     const func = {};
     func();
   } catch (error) {
-    console.log(error instanceof ReferenceError); // => true
-    console.log(error.name); // => "SyntaxError"
+    console.log(error instanceof TypeError); // => true
+    console.log(error.name); // => "TypeError"
     console.log(error.message); // エラーメッセージが表示される
   }
 }
