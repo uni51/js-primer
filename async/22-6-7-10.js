@@ -1,5 +1,5 @@
 // $ node 22-6-7-10.js で実行
-// 22.6.7 Promiseチェーン
+// 22.6.7 コールバック関数でPromiseインスタンスを返す
 function main() {
     return Promise.reject(new Error("エラー"));
 }

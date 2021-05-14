@@ -1,5 +1,5 @@
 // $ node 22-6-7-7.js で実行
-// 22.6.7 Promiseチェーン
+// 22.6.7 Promiseチェーンで値を返す
 Promise.resolve(1).then((value) => {
     console.log(value); // => 1
     return value * 2;

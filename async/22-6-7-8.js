@@ -1,5 +1,5 @@
 // $ node 22-6-7-8.js で実行
-// 22.6.7 Promiseチェーン
+// 22.6.7 Promiseチェーンで値を返す
 Promise.reject(new Error("失敗")).catch(error => {
     // 一度catchすれば、次に呼ばれるのは成功時のコールバック
     return 1;
